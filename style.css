@@ -1,0 +1,193 @@
+/* font family configuration */
+@font-face {
+  font-family: "KantumruyPro-Bold";
+  src: url("./../fonts/KantumruyPro-Bold.ttf");
+}
+@font-face {
+  font-family: "KantumruyPro-Medium";
+  src: url("./../fonts/KantumruyPro-Medium.ttf");
+}
+@font-face {
+  font-family: "KantumruyPro-ThinItalic";
+  src: url("./../fonts/KantumruyPro-ThinItalic.ttf");
+}
+@font-face {
+  font-family: "KantumruyPro-ExtraLightItalic";
+  src: url("./../fonts/KantumruyPro-ExtraLightItalic.ttf");
+}
+
+* {
+  font-family: "KantumruyPro-Medium";
+  color: darkblue;
+  font-size: 25px;
+}
+/* note */
+.note {
+  background-color: #000;
+  text-align: center;
+  padding: 10px;
+  margin-top: 0;
+}
+.stiky {
+  position: sticky;
+  top: 0;
+  /* padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50; */
+}
+.note a {
+  color: white;
+  font-size: larger;
+  letter-spacing: 3px;
+  text-decoration: none;
+}
+/* Navigation */
+.head-container {
+  background-image: url("./images/rainbow.jpg");
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+}
+
+.btncontact {
+  border: 1px solid darkblue;
+  border-radius: 2px;
+}
+.btncontact a {
+  padding: 10px 20px;
+}
+.btncontact a:hover {
+  background-color: darkblue;
+  color: white;
+}
+/* logo */
+.logo,
+.logo img {
+  width: 80px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+.welcome {
+  /* text-align: center; */
+  color: darkblue;
+}
+.btnBook,
+.btnRead {
+  background-color: #fff;
+  border-radius: 2px;
+  border: 0 solid darkblue;
+  opacity: 0.8;
+  padding: 10px 20px;
+  font-size: 25px;
+}
+.booknow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+}
+.preview {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.preview .item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item img {
+  max-width: 100%;
+  object-fit: cover;
+}
+.construction {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 60px;
+}
+.citem {
+  max-width: 450px;
+}
+.citem img {
+  width: 100%;
+  object-fit: cover;
+}
+.citem h1,
+.citem h4,
+.citem p {
+  text-align: center;
+}
+.certification {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+.certificate-item {
+  max-width: 450px;
+  margin: 10px;
+}
+.certificate-item:hover {
+  background-color: whitesmoke;
+  transition: 0.5s ease linear;
+}
+.certificate-item p {
+  font-size: 20px;
+  text-align: center;
+  font-family: "KantumruyPro-ThinItalic";
+}
+.certificate-item h1 {
+  text-align: center;
+}
+.certificate-item i {
+  text-align: center;
+  display: block;
+}
+.subscribe {
+  text-align: center;
+}
+.subscribe h1 {
+  font-size: 50px;
+}
+.subscribe input {
+  width: 500px;
+  height: 50px;
+  border-radius: 2px;
+  border: 0.5px solid grey;
+  opacity: 0.5;
+  background-color: #fff;
+}
+.subscribe button {
+  height: 50px;
+  background-color: darkblue;
+  color: white;
+  width: 200px;
+  border-radius: 2px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+li {
+  height: 40vh;
+  flex-grow: 1;
+}
+
+img {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+}
